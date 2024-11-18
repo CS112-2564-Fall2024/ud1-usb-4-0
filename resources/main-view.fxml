@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane  dividerPositions="0.2185929648241206" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Button layoutX="200.0" layoutY="26.0" mnemonicParsing="false" text="Home" />
+            <Button layoutX="283.0" layoutY="26.0" mnemonicParsing="false" text="About Us" />
+            <Button layoutX="388.0" layoutY="26.0" mnemonicParsing="false" text="Contact" />
+            <Button layoutX="519.0" layoutY="11.0" mnemonicParsing="false" text="Login" />
+            <Label alignment="CENTER" layoutX="14.0" layoutY="16.0" prefHeight="62.0" prefWidth="137.0" text="EXCLUSICAR RENTALS" textAlignment="CENTER" wrapText="true" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="155.0" layoutX="67.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="150.0" fitWidth="155.0" layoutX="393.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+            <Button layoutX="92.0" layoutY="242.0" mnemonicParsing="false" text="Learn More..." />
+            <Button layoutX="418.0" layoutY="242.0" mnemonicParsing="false" text="Learn More..." />
+            <Label alignment="CENTER" layoutX="67.0" layoutY="209.0" prefHeight="31.0" prefWidth="155.0" text="Car Name" />
+            <Label alignment="CENTER" layoutX="393.0" layoutY="209.0" prefHeight="31.0" prefWidth="155.0" text="Car Name" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
